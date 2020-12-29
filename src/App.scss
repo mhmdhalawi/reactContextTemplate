@@ -1,0 +1,23 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './styles/variables';
+@import './styles/dashboard';
+
+.App {
+  text-align: center;
+}
+.btn {
+  border-radius: 5px;
+  box-shadow: 2px 10px 15px $gray-500;
+}
+.btnPrime {
+  background-color: $red-500;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background-color: $red-600;
+  }
+}
+h2 {
+  color: $cyan-500;
+}
